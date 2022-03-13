@@ -1,0 +1,26 @@
+/* .title {
+  background-color: aqua;
+  color: burlywood;
+  font-size: 32px;
+}/*
+# sourceMappingURL=styles.css.map */ 
+
+*{
+  padding: 0;
+
+}
+
+
+
+.main menu{
+
+  background-color: aqua;
+  color: burlywood;
+  font-size: 32px;
+  width: 100px;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: -200px;
+
+}
