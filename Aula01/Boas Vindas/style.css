@@ -1,0 +1,27 @@
+*{
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+body{
+     background-color: aliceblue;
+     color: black;
+     font-family: "Poppins";
+}
+
+h1{
+     align-items: center;
+     text-align: center;
+     font-size: 30px;
+}
+
+p{
+
+     text-align: left;
+     font-size: 20px;
+     line-height: 2rem;
+     letter-spacing: 1px;
+}
+
+
