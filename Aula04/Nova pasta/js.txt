@@ -1,0 +1,24 @@
+document.querySelector('h1')
+<h1>​Titulo Principal da página​</h1>​
+
+document.querySelector('#subtitulo')
+<h2 id=​"subtitulo">​Subtitulo da página​</h2>​
+document.querySelector('.paragrafo')
+<p class=​"paragrafo">​Lorem ipsum dolor sit amet.​</p>​
+
+
+document.querySelectorAll('.paragrafo')
+NodeList(3) [p.paragrafo, p.paragrafo, p.paragrafo]0: p.paragrafo1: p.paragrafo2: p.paragrafolength: 3[[Prototype]]: NodeList
+
+document.querySelector('numeros li')
+null
+document.querySelector('#numeros li')
+<li>​::marker​"1"</li>​
+numeros
+<ul id=​"numeros">​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​</ul>​
+
+document.getElementById('subtitulo')
+<h2 id=​"subtitulo">​Subtitulo da página​</h2>​
+
+document.getElementsByClassName('paragrafo')
+HTMLCollection(3) [p.paragrafo, p.paragrafo, p.paragrafo]0: p.paragrafo1: p.paragrafo2: p.paragrafolength: 3[[Prototype]]: HTMLCollection
