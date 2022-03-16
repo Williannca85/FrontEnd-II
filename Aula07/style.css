@@ -1,0 +1,76 @@
+     body {
+     font-family: "Poppins";
+   }
+
+   .box {
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: rgba(0, 0, 0, 0.8);
+     padding: 15px;
+     border-radius: 10px;
+     width: 40%;
+   }
+
+   fieldset {
+     border: 3px solid rgb(7, 167, 105);
+   }
+
+
+   legend {
+     border: 1px solid springgreen;
+     padding: 10px;
+     text-align: center;
+     background-color: springgreen;
+     border-radius: 30px;
+   }
+
+   
+   /* Elementos de classe "campo" de tag <label> */
+   .campo label {
+     margin-bottom: 0.5em;
+   }
+
+   .inputBox {
+     position: relative;
+   }
+
+   .inputUser {
+     background: none;
+     border: none;
+     border-bottom: 1px solid white;
+     outline: none;
+     color: white;
+     font-size: 15px;
+     width: 100%;
+     letter-spacing: 2px;
+   }
+
+   .labelInput {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     pointer-events: none;
+     transition: 0.5s;
+   }
+   
+   input:hover{
+     height: 20px;
+     transition: 3s linear 2s;
+     color: springgreen;
+   
+   } 
+   /*
+   .inputUser:focus ~ .labelInput,*/
+   .inputUser:valid ~ .labelInput {
+     top: -20px;
+     font-size: 12px;
+     color: springgreen;
+   }
+   
+   
+
+
+   
